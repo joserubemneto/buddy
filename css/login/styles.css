@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: 8rem 0;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4.6rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.login-inputs .form-input {
+  margin-bottom: 2rem;
+}
+
+.login-inputs .form-input:last-child {
+  margin-bottom: 0;
+}

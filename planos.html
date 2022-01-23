@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/variables.css" />
+    <link rel="stylesheet" href="/css/grid.css" />
+    <link rel="stylesheet" href="/css/patterns.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/planos/styles.css">
+    
+    <title>Buddy - Escolher Plano</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h2>Escolher Plano</h2>
+        <button type="button" class="message-chat">
+          <img src="/img/message.png" alt="Chat icon">
+        </button>
+      </header>
+
+      <div class="cards-container">
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="card-content-title">Plano Buddy</h4>
+
+            <ul class="card-content-list">
+              <li class="card-content-list-item check">
+               <span>✅</span> Acompanhamento Veterinario
+              </li>
+              <li class="card-content-list-item check">
+                <span>✅</span>  Plano de alimentacao
+              </li>
+              <li class="card-content-list-item">
+                <span>❌</span>  Plano de treino
+              </li>
+              <li class="card-content-list-item">
+                <span>❌</span>  Acompanhamento de treinador
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <p class="card-footer-price">12,99€</p>
+            <button type="button" class="base-button card-footer-button">Escolher plano</button>
+          </div>
+        </div>
+
+        <div class="card selected">
+          <div class="card-content">
+            <h4 class="card-content-title">Plano Buddy</h4>
+
+            <ul class="card-content-list">
+              <li class="card-content-list-item check">
+               <span>✅</span> Acompanhamento Veterinário
+              </li>
+              <li class="card-content-list-item check">
+                <span>✅</span>  Plano de Alimentação
+              </li>
+              <li class="card-content-list-item check">
+                <span>✅</span>  Plano de Treino
+              </li>
+              <li class="card-content-list-item check">
+                <span>✅</span>  Acompanhamento de Treinador
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-footer">
+            <p class="card-footer-price">25,99€</p>
+            <button type="button" class="base-button card-footer-button">Escolher plano</button>
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <footer class="footer-base footer">
+      <p class="footer-total">Total: 25,99€</p>
+      <button type="button" class="base-button footer-button">Checkout</button>
+    </footer>
+  </body>
+</html>
