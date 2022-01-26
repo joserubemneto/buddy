@@ -38,3 +38,10 @@
 .button-link {
   width: 100%;
 }
+
+.content-description {
+  color: var(--black);
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
