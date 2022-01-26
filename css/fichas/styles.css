@@ -1,0 +1,8 @@
+.card-content-title {
+  margin-bottom: 1rem;
+}
+
+.card-content-text {
+  color: var(--gray);
+  margin-top: 0.5rem;
+}

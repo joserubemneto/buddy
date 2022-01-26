@@ -16,27 +16,36 @@
   <link rel="stylesheet" href="/css/patterns.css" />
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="/css/reset.css" />
-  <link rel="stylesheet" href="/css/login/styles.css">
+  <link rel="stylesheet" href="/css/pagamento/styles.css">
   
-  <title>Buddy - Login</title>
+  <title>Buddy - Pagamento</title>
 </head>
 <body>
   <main class="container">
-    <div class="logo">
-      <img src="/img/Logo.png" alt="Buddy com simbolo de uma pata">
-    </div>
-    <div class="login-form">
-      <h3>Login</h3>
+    <header class="header">
+      <h2>Pagamento</h2>
+    </header>
 
-      <div class="login-inputs">
-        <input class="form-input" type="email" name="email" id="email" placeholder="Email">
-        <input class="form-input" type="password" name="password" id="password" placeholder="Senha">
+    <div class="content-container">
+      <div class="card-container">
+        <img src="./img/card.png" alt="Card">
       </div>
-
-      <a href="./planos.html">
-        <button class="base-button" type="button">
-          Entrar
-        </button>
+      <div class="payment-details-container">
+        <div class="sub-total-container">
+          <p>Subtotal</p>
+          <p>25,99 €</p>
+        </div>
+        <div class="sub-total-container">
+          <p>Subtotal</p>
+          <p>25,99 €</p>
+        </div>
+        <div class="total-container">
+          <p>Total</p>
+          <p>25,99 €</p>
+        </div>
+      </div>
+      <a class="button-link" href="./eventos.html">
+        <button class="base-button payment-button">Pagar agora</button>
       </a>
     </div>
   </main>

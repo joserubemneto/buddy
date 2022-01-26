@@ -37,6 +37,7 @@
 }
 
 .footer-total {
+  width: 100%;
   font-size: 2.2rem;
   font-weight: 600;
   color: var(--black);
@@ -44,4 +45,14 @@
 
 .footer-button {
   max-width: 18rem;
+}
+
+.footer-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.button-link {
+  display: flex;
+  justify-content: end;
 }
